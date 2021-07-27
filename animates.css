@@ -1,0 +1,65 @@
+
+
+body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+  text-shadow: 1px 1px 2px black;
+
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background-color: pink;
+	}
+a {
+  text-decoration: none;
+
+}
+active {
+        color: #f0f;
+	background-color: #fff;
+}
+a:focus a:hover {
+	color: green;
+	background-color: dark green;
+	}
+a:link {
+	color: green;
+	}
+a:visted {
+	color: dark green;
+	}
+h1 {
+  color: black;
+  font: bold 1.5em Georgia, serif;
+ 
+}
+h2 {
+	
+  color: black;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+}
+dt {
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
